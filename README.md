@@ -1,0 +1,1 @@
+Refactoring previous "IaaS" lab infrastructure. I'll decommission my old database Virtual Machine, and replace it with a fully managed Azure SQL Database (PaaS). I'll also deploy Azure Key Vault to store database credentials securely and enable a managed identity on my Web Server so it can access secrets without a password.
